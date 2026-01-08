@@ -2,6 +2,7 @@
 
 - Орлова Светлана
 - [Резюме](https://drive.google.com/file/d/1yOBlVtS8oZebL31J7TNquRGH7dTKFSR4/view)
+- Дата: 01.08.2026
 
 ## Задание A1: "Собери и запусти" (Docker, Linux, CLI)
 
@@ -23,9 +24,9 @@
     echo "Hello from Svetlana! :)" >> index.html
     ```
 
-4. В `Dockerfile` за основу был взят образ `nginx:alpine` и добавлена инструкция копирования файла `index.html` в специальную директорию `/usr/share/nginx/html`, из которой`nginx` берет приветственную страницу
+4. В `Dockerfile` за основу был взят образ `nginx:alpine` и добавлена инструкция копирования файла `index.html` в специальную директорию `/usr/share/nginx/html`, из которой `nginx` берет приветственную страницу
 
-    ![Dockerfile](img/Dockerfile.png)
+    ![](img/Dockerfile.png)
 
 5. Для сборки образа использовалась команда
 
@@ -41,7 +42,7 @@
 
 7. По адресу <http://localhost:8080> вышла следующая страница:
 
-    ![hello_page](img/hello_page.png)
+    ![](img/hello_page.png)
 
 8. Также был написан `compose.yml`, который запускал один сервис `web-app`, используя Dockerfile, и открывал порт 8080, который перенаправлялся на 80 порт сервиса.
 
@@ -119,7 +120,7 @@ services:
 
 Итоговая схема
 
-![Схема cicd](img/cicd.drawio.png)
+![](img/cicd.drawio.png)
 
 Объяснение по шагам:
 
