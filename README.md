@@ -3,6 +3,7 @@
 - Орлова Светлана
 - [Резюме](https://drive.google.com/file/d/1yOBlVtS8oZebL31J7TNquRGH7dTKFSR4/view)
 - Дата: 01.08.2026
+- Репозиторий: <https://github.com/Orlovchikk/yandex-test>
 
 ## Задание A1: "Собери и запусти" (Docker, Linux, CLI)
 
